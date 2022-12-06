@@ -38,11 +38,11 @@ The tab "Data" shows the data computed in the back end as a table. They are upda
 
 ## Screenshots
 
-![Risk tab](screenshots/idis-ram-risk.png)
+![Risk tab](screenshots/idis-ram-risk.jpg)
 
-![Time series tab](screenshots/idis-ram-timeseries.png)
+![Time series tab](screenshots/idis-ram-timeseries.jpg)
 
-![Data tab](screenshots/idis-ram-data.png)
+![Data tab](screenshots/idis-ram-data.jpg)
 
 ## Generate data
 
