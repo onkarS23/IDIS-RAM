@@ -60,7 +60,11 @@ If it is not accessible one can use the origingal sormasdatagen package:
 remotes::install_gitlab("stephaneghozzi/sormasdatagen")
 ```
 
-Run data-raw/generate-data.R to prepare the default data set. It uses ConvertForSORMAS.R from EpiDataGen as the functions therein are not exported.
+In [data-raw/generate-data.R](data-raw/generate-data.R) uncomment the line 
+```
+# sormas_testdata <- sormasdatagen::GenerateSORMASData()
+```
+and run data-raw/generate-data.R to prepare the default data set. It uses [R/ConvertForSORMAS.R](R/ConvertForSORMAS.R), copied from EpiDataGen.
 
 Please not a few important issues below.
 
