@@ -24,7 +24,7 @@ There are two types of risk:
   - if the indicator is strictly below the "low-mid" threshold, then the risk is considered "low"
   - else if the indicator is at or above the "low-mid" threshold and strictly below the "mid-high" threshold, then the risk is considered "moderate"
   - else the risk is considered "high"
-- "anomaly": a statistical model is trained on the indicator in reference weeks, and the indicator value is in the observation weeks are compared to the inferred negative-binomial statistical distribution. 
+- "anomaly": a statistical model is trained on the indicator in reference weeks, and the indicator value in the observation weeks are compared to the inferred negative-binomial statistical distribution. 
 
 The "anomaly thresholds" are the probabilities below which risk levels are considered. Absolute thresholds on the counts are derived from those probabilities, risk levels are then computed as in the "absolute risk" case.
 
