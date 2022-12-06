@@ -1,4 +1,3 @@
-EpiDataGen
 tibble
 shiny
 shinydashboard
