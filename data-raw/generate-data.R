@@ -8,7 +8,6 @@ path_to_data <- "data"
 
 # WARNING!!! As of 5 December 2022: This often generates an error (Gumbel dist)!
 # sormas_testdata <- sormasdatagen::GenerateSORMASData()
-# saveRDS(sormas_testdata, paste0(path_to_data, "/", "sormas_testdata.rds"))
 
 # Export CSVs
 for (ds in names(sormas_testdata)) {
