@@ -1,0 +1,13 @@
+EpiDataGen
+tibble
+shiny
+shinydashboard
+lubridate
+ISOweek
+purrr
+stats
+MASS
+ggplot2
+ISOweek
+shinycssloaders
+DT
